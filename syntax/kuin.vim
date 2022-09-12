@@ -20,5 +20,6 @@ hi def link kuinStatement Statement
 hi def link kuinType Type
 
 hi def link kuinComment Comment
+hi def link kuin1lComment Comment
 
 let b:current_syntax = "kuin"
