@@ -18,7 +18,8 @@ syn match kuinFloat /[- ^+*/={&][0-9][0-9]*\.[0-9][0-9]*/hs=s+1
 
 syn region kuinComment start="{" end="}" contains=kuinComment
 syn region kuin1lComment start="^ *;" end="$" keepend
-syn region kuinString start=+"+ end=+"+
+syn region kuinString start=+"+ end=+"+ contains=kuin2String
+syn region kuin2String start="\{" end="}" contains=kuinConstant,kuinChar,kuinInt,kuinFloat
 
 hi def link kuinConstant Constant
 hi def link kuinStatement Statement
@@ -31,5 +32,6 @@ hi def link kuinFloat Constant
 hi def link kuinComment Comment
 hi def link kuin1lComment Comment
 hi def link kuinString Constant
+hi def link kuin2String NONE
 
 let b:current_syntax = "kuin"
