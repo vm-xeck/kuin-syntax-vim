@@ -16,7 +16,7 @@ syn match kuinChar /'.'/
 syn match kuinInt /[- ^+*/=][0-9][0-9]*/hs=s+1
 syn match kuinFloat /[- ^+*/=][0-9][0-9]*\.[0-9][0-9]*/hs=s+1
 
-syn region kuinComment start="{" end="}"
+syn region kuinComment start="{" end="}" contains=kuinComment
 syn region kuin1lComment start="^ *;" end="$" keepend
 syn region kuinString start=+"+ end=+"+
 
