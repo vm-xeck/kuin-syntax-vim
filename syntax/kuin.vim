@@ -13,7 +13,7 @@ syn keyword kuinStatement func end if elif else alias assert block break case ca
 syn keyword kuinType bit16 bit32 bit64 bit8 bool char float int dict list queue stack 
 
 syn match kuinChar /'.'/hs=s+1,he=e-1
-syn match kuinInt /[ ^+-*/=][0-9]+/hs=s+1
+syn match kuinInt /[- ^+*/=][0-9]+/hs=s+1
 
 syn region kuinComment start="{" end="}"
 syn region kuin1lComment start="^ *;" end="$" keepend
