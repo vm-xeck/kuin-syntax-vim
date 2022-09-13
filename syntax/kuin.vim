@@ -26,6 +26,7 @@ hi def link kuinType Type
 
 hi def link kuinChar Constant
 hi def link kuinInt Constant
+hi def link kuinFloat Constant
 
 hi def link kuinComment Comment
 hi def link kuin1lComment Comment
