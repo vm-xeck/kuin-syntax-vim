@@ -19,7 +19,7 @@ syn match kuinFloat /[- ^+*/={&][0-9][0-9]*\.[0-9][0-9]*/hs=s+1
 syn region kuinComment start="{" end="}" contains=kuinComment
 syn region kuin1lComment start="^ *;" end="$" keepend
 syn region kuinString start=+"+ end=+"+ contains=kuin2String
-syn region kuin2String start="\{" end="}" contains=kuinConstant,kuinChar,kuinInt,kuinFloat
+syn region kuin2String start="\\{" end="}" contains=kuinConstant,kuinChar,kuinInt,kuinFloat
 
 hi def link kuinConstant Constant
 hi def link kuinStatement Statement
