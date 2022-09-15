@@ -2,7 +2,7 @@
 ## Description
 Syntax highlight plugin for [Kuin language](https://kuina.ch/kuin).
 ## Usage
-1. Make sure that you have a directory `~/.vim/syntax`.
+1. Make sure that you have a directory `~/.vim/syntax` and `~/.vim/indent`.
 2. Execute the commands below in order that Vim can read the file.
 ```bash
 $ git clone git@github.com/vm-xeck/kuin-syntax-vim
