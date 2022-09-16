@@ -1,6 +1,6 @@
-"if exists('b:did_indent')
-"	finish
-"endif
+if exists('b:did_indent')
+	finish
+endif
 
 setlocal autoindent
 setlocal indentexpr=GetKuinIndent()
