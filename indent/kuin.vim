@@ -3,7 +3,7 @@
 " Maintainer:	xeck
 " Last Change:	2022 Sep 17
 
-if exists('b:did_indent')
+if exists("b:did_indent")
 	finish
 endif
 echo "test"
