@@ -1,6 +1,10 @@
-all: syntax/kuin.vim
-	@cp syntax/kuin.vim ~/.vim/syntax/kuin.vim
-	@cp indent/kuin.vim ~/.vim/indent/kuin.vim
+all: stx idt
 	@echo "Done"
+stx: syntax/kuin.vim
+	@cp syntax/kuin.vim ~/.vim/syntax/kuin.vim
+	@echo "syntax: done"
+idt: indent/kuin.vim
+	@cp indent/kuin.vim ~/.vim/indent/kuin.vim
+	@echo "indent: done"
 
-.PHONY: all
+.PHONY: all stx idt
