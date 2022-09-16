@@ -1,7 +1,7 @@
 if exists('b:did_indent')
 	finish
 endif
-
+echo "test"
 setlocal autoindent
 setlocal indentexpr=GetKuinIndent()
 setlocal indentkeys=!^F,o,O,0=block,0=class,0=enum,0=for,0=func,0=if,0=elif,0=else,0=switch,0=try,0=while,0=case
