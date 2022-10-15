@@ -15,6 +15,7 @@ syn keyword kuinType bit16 bit32 bit64 bit8 bool char float int dict list queue 
 syn match kuinChar /'.'/
 syn match kuinInt /[- ^+*/={&][0-9][0-9]*/hs=s+1
 syn match kuinFloat /[- ^+*/={&][0-9][0-9]*\.[0-9][0-9]*/hs=s+1
+syn matck kuinBit /[- ^+*/={&][0-9][0-9]*b(8|16|32|64)/hs=s+1
 
 syn region kuinComment start="{" end="}" contains=kuinComment
 syn region kuin1lComment start="^ *;" end="$" keepend
@@ -28,6 +29,7 @@ hi def link kuinType Type
 hi def link kuinChar Constant
 hi def link kuinInt Constant
 hi def link kuinFloat Constant
+hi def link kuinBIt Constant
 
 hi def link kuinComment Comment
 hi def link kuin1lComment Comment
