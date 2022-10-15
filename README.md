@@ -10,3 +10,6 @@ $ cd kuin-syntax-vim
 $ make
 ```
 3. Type `:set syntax=kuin` in Vim or Add `au BufRead,BufNewFile *.kn set filetype=kuin` to your vimrc.
+
+## Special thanks
+* [QiToY](https://twitter.com/_QiToY)
