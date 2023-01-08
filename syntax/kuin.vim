@@ -31,7 +31,7 @@ hi def link kuinChar Constant
 hi def link kuinInt Constant
 hi def link kuinFloat Constant
 hi def link kuinBit Constant
-hi def link kuinSpecialChar SpeclaiChar
+hi def link kuinSpecialChar SpecialChar
 
 hi def link kuinComment Comment
 hi def link kuin1lComment Comment
