@@ -12,7 +12,7 @@ syn keyword kuinConstant true false inf null
 syn keyword kuinStatement func end if elif else alias assert block break case catch class const dbg default do enum env excode finally for include me ret skip super switch throw to try var while
 syn keyword kuinType bit16 bit32 bit64 bit8 bool char float int dict list queue stack 
 
-syn match kuinChar /'.'/
+syn match kuinChar /\v'(.|\\[\\"'0nt])'/
 syn match kuinInt /\v[- ^+*/={&][0-9]+/hs=s+1
 syn match kuinFloat /\v[- ^+*/={&][0-9]+\.[0-9]+/hs=s+1
 syn match kuinBit /\v[- ^+*/={&][0-9]+b(8|16|32|64)/hs=s+1
