@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	Kuin
-" Maintainer:	xeck
-" Last Change: 2023 Jan 09
+" Maintainer:	vm_xeck
+" Last Change: 2023 Dec 31
 
 " Highlight if not highligted yet
 if exists("b:current_syntax")

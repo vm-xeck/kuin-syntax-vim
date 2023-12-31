@@ -1,6 +1,6 @@
 " Vim indent file
 " Language:	Kuin
-" Maintainer:	xeck
+" Maintainer:	vm_xeck
 " Last Change:	2022 Sep 17
 
 if exists("b:did_indent")
