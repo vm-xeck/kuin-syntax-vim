@@ -14,7 +14,7 @@ syn keyword kuinType bit16 bit32 bit64 bit8 bool char float int dict list queue 
 syn keyword kuinTodo TODO FIXME XXX contained
 
 syn match kuinChar /\v'([^\\"']|\\[\\"'0nt]|\\u[0-9A-F]{4})'/ contains=kuinSpecialChar,kuinCharCode
-syn match kuinInt /\v[^0-9A-Za-z][0-9]+/hs=s+1
+syn match kuinInt /\v[^0-9A-Za-z'][0-9]+/hs=s+1
 syn match kuinIntHex /\v[^0-9A-Za-z]0x[0-9A-F]+/hs=s+1
 syn match kuinFloat /\v[^0-9A-Za-z][0-9]+\.[0-9]+/hs=s+1
 syn match kuinBit /\v[^0-9A-Za-z][0-9]+b(8|16|32|64)/hs=s+1
